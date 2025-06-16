@@ -37,10 +37,10 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/80 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px] hover:text-blue-300">
+          <Button className="bg-primary/80 text-primary-foreground hover:bg-primary/100 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px] hover:text-blue-300">
             Start for free
           </Button>
-          <Button variant="outline" className="border-border text-foreground hover:bg-accent hover:text-accent-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
+          <Button variant="outline" className="border-border text-foreground hover:bg-accent hover:text-accent-foreground text-base h-12 px-8 transition-all duration-300 min-h-[48px]">
             Book a demo
           </Button>
         </div>
