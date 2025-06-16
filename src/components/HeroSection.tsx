@@ -37,7 +37,7 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/80 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
+          <Button className="bg-primary text-primary-foreground hover:bg-primary/80 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px] hover:text-blue-300">
             Start for free
           </Button>
           <Button variant="outline" className="border-border text-foreground hover:bg-accent hover:text-accent-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
@@ -65,10 +65,10 @@ const HeroSection = () => {
               
               <div className="flex items-center gap-3">
                 <div className="flex -space-x-2">
-                  <div className="h-8 w-8 rounded-full bg-muted border-2 border-card"></div>
-                  <div className="h-8 w-8 rounded-full bg-muted/80 border-2 border-card"></div>
-                  <div className="h-8 w-8 rounded-full bg-muted/60 border-2 border-card"></div>
-                  <div className="h-8 w-8 rounded-full bg-muted/40 border-2 border-card flex items-center justify-center text-xs text-foreground">+3</div>
+                  <div className="h-8 w-8 rounded-full border-2 border-card bg-blue-300"></div>
+                  <div className="h-8 w-8 rounded-full border-2 border-card bg-slate-800"></div>
+                  <div className="h-8 w-8 rounded-full border-2 border-card bg-cosmic-muted"></div>
+                  <div className="h-8 w-8 rounded-full border-2 border-card flex items-center justify-center text-xs text-foreground bg-stone-300">+3</div>
                 </div>
                 
                 <div className="h-8 px-3 rounded-md bg-muted flex items-center justify-center text-foreground text-sm">
@@ -132,19 +132,19 @@ const HeroSection = () => {
                   </div>
                   
                   <div className="flex items-center gap-2 flex-shrink-0">
-                    <div className="h-8 w-8 rounded-md bg-muted flex items-center justify-center text-muted-foreground">
+                    <div className="h-8 w-8 rounded-md bg-muted flex items-center justify-center text-muted-foreground hover:bg-blue-300">
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15 12H9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                         <path d="M12 9L12 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                       </svg>
                     </div>
-                    <div className="h-8 w-8 rounded-md bg-muted flex items-center justify-center text-muted-foreground">
+                    <div className="h-8 w-8 rounded-md bg-muted flex items-center justify-center text-muted-foreground hover:bg-blue-300">
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17 9L17 17H9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M17 17L7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
                     </div>
-                    <div className="h-8 px-3 rounded-md bg-foreground text-background flex items-center justify-center text-sm font-medium whitespace-nowrap hover:bg-amber-400 transition duration-300 active:bg-green-400 ">
+                    <div className="h-8 px-3 rounded-md bg-foreground text-background flex items-center justify-center text-sm font-medium whitespace-nowrap hover:bg-amber-400 transition duration-300 active:bg-green-400">
                       New Transaction
                     </div>
                   </div>

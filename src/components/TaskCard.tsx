@@ -57,7 +57,7 @@ const TaskCard: React.FC<TaskCardProps> = ({
   const getTagClass = () => {
     return 'bg-muted/50 text-muted-foreground border border-border';
   };
-  return <div ref={cardRef} draggable onDragStart={handleDragStart} onDragEnd={handleDragEnd} className="bg-neutral-300/20 hover:bg-neutral-700/50 bg:dark:bg-neutral-400/20 dark:hover:bg-neutral-400/30 text-neutral-600 dark:text-neutral-300 backdrop-blur-[1px] border border-neutral-400/20\n">
+  return <div ref={cardRef} draggable onDragStart={handleDragStart} onDragEnd={handleDragEnd} className="bg-neutral-300/20 hover:bg-neutral-500/20 bg:dark:bg-neutral-400/20 dark:hover:bg-neutral-400/30 text-neutral-600 dark:text-neutral-300 backdrop-blur-[1px] border border-neutral-400/20\\n">
       {/* Header with tag and due date */}
       <div className="flex justify-between items-start mb-3 flex-shrink-0">
         <span className={`text-xs font-medium px-2 py-1 rounded-full ${getTagClass()}`}>
