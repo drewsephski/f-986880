@@ -2,20 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import TaskBoard from './TaskBoard';
 import { Loader } from 'lucide-react';
-
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
-
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
     }, 300);
-
     return () => clearTimeout(timer);
   }, []);
-
-  return (
-    <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden bg-background">
+  return <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden bg-background">
       {/* Cosmic particle effect (background dots) */}
       <div className="absolute inset-0 cosmic-grid opacity-30"></div>
       
@@ -149,7 +144,7 @@ const HeroSection = () => {
                         <path d="M17 17L7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
                     </div>
-                    <div className="h-8 px-3 rounded-md bg-foreground text-background flex items-center justify-center text-sm font-medium whitespace-nowrap">
+                    <div className="h-8 px-3 rounded-md bg-foreground text-background flex items-center justify-center text-sm font-medium whitespace-nowrap hover:bg-amber-400 transition duration-300 active:bg-green-400 ">
                       New Transaction
                     </div>
                   </div>
@@ -164,8 +159,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
