@@ -1,8 +1,8 @@
 {
-  "files": [],
+  "files": ["src/types/web-speech.d.ts"],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    { "path": "./tsconfig.app.json", "composite": true },
+    { "path": "./tsconfig.node.json", "composite": true }
   ],
   "compilerOptions": {
     "baseUrl": ".",

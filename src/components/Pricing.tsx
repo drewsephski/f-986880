@@ -8,15 +8,15 @@ const Pricing = () => {
     {
       name: "Starter",
       price: "Free",
-      description: "Perfect for small businesses starting their fintech journey",
+      description: "Perfect for individuals and small teams exploring AI automation",
       features: [
-        "Up to 100 transactions/month",
-        "Basic payment processing",
-        "Standard reporting",
-        "Email support",
-        "Basic fraud protection"
+        "No-code interface",
+        "Basic workflow templates",
+        "Community support",
+        "Limited AI model access",
+        "Up to 5 AI applications"
       ],
-      buttonText: "Get Started",
+      buttonText: "Get Started Free",
       buttonVariant: "outline",
       popular: false
     },
@@ -24,32 +24,32 @@ const Pricing = () => {
       name: "Professional",
       price: "$99",
       period: "per month",
-      description: "Ideal for growing businesses with higher transaction volumes",
+      description: "Ideal for growing businesses needing robust AI capabilities",
       features: [
-        "Up to 10,000 transactions/month",
-        "Advanced payment processing",
-        "Real-time analytics",
-        "Multi-currency support",
-        "Advanced fraud protection",
-        "API access",
-        "Priority support"
+        "No-code & Code SDK access",
+        "Advanced workflow automation",
+        "Priority email support",
+        "Expanded AI model access",
+        "Up to 50 AI applications",
+        "Custom deployment options",
+        "Data integration connectors"
       ],
-      buttonText: "Start 14-day trial",
+      buttonText: "Start 14-day Trial",
       buttonVariant: "default",
       popular: true
     },
     {
       name: "Enterprise",
       price: "Custom",
-      description: "For large organizations with complex financial operations",
+      description: "For large organizations requiring tailored, secure AI solutions",
       features: [
-        "Unlimited transactions",
-        "Custom payment workflows",
-        "Advanced compliance tools",
+        "Unlimited AI applications",
         "Dedicated infrastructure",
-        "White-label solutions",
+        "On-premise deployment",
+        "24/7 premium support",
+        "Custom integrations",
         "Dedicated account manager",
-        "24/7 premium support"
+        "Advanced security & compliance"
       ],
       buttonText: "Contact Sales",
       buttonVariant: "outline",
@@ -61,11 +61,11 @@ const Pricing = () => {
     <section id="pricing" className="w-full py-20 px-6 md:px-12 bg-background">
       <div className="max-w-7xl mx-auto space-y-16">
         <div className="text-center space-y-4 max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">
-            Transparent pricing for every stage
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tighter text-foreground">
+            Flexible plans for every AI journey
           </h2>
-          <p className="text-muted-foreground text-lg">
-            Scale your financial operations with plans that grow with your business
+          <p className="text-muted-foreground text-lg md:text-xl">
+            Choose the plan that best fits your needs, from individual creators to large enterprises
           </p>
         </div>
         
@@ -86,14 +86,14 @@ const Pricing = () => {
               )}
               
               <div className="mb-auto">
-                <h3 className="text-2xl font-medium tracking-tighter mb-1 text-foreground">{plan.name}</h3>
+                <h3 className="text-3xl font-medium tracking-tighter mb-1 text-foreground">{plan.name}</h3>
                 
                 <div className="mb-4">
                   <div className="text-3xl font-bold tracking-tighter text-foreground">{plan.price}</div>
                   {plan.period && <div className="text-sm text-muted-foreground">{plan.period}</div>}
                 </div>
                 
-                <p className="text-muted-foreground mb-6">{plan.description}</p>
+                <p className="text-muted-foreground text-lg mb-6">{plan.description}</p>
                 
                 <div className="space-y-3 mb-8">
                   {plan.features.map((feature, i) => (
@@ -103,7 +103,7 @@ const Pricing = () => {
                           <path d="M5 12L10 17L19 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                       </div>
-                      <span className="text-sm text-foreground">{feature}</span>
+                      <span className="text-base text-foreground">{feature}</span>
                     </div>
                   ))}
                 </div>
@@ -125,7 +125,7 @@ const Pricing = () => {
           ))}
         </div>
         
-        <div className="text-center text-muted-foreground">
+        <div className="text-center text-muted-foreground text-lg md:text-xl">
           Have questions? <a href="#" className="text-primary hover:underline">Contact our sales team</a>
         </div>
       </div>

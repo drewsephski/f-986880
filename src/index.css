@@ -7,62 +7,92 @@
 
 @layer base {
   :root {
-    --background: 0 0% 8%; /* Dark charcoal */
-    --foreground: 0 0% 95%; /* Light grey/white */
+    --background: 240 10% 8%; /* Dark charcoal */
+    --foreground: 240 10% 95%; /* Light grey/white */
 
-    --card: 0 0% 12%; /* Slightly lighter charcoal */
-    --card-foreground: 0 0% 95%;
+    --card: 240 10% 12%; /* Slightly lighter charcoal */
+    --card-foreground: 240 10% 95%;
 
-    --popover: 0 0% 12%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 240 10% 12%;
+    --popover-foreground: 240 10% 95%;
 
-    --primary: 0 0% 85%; /* Light grey */
-    --primary-foreground: 0 0% 15%; /* Dark charcoal */
+    --primary: 240 80% 60%; /* AI Blue */
+    --primary-foreground: 240 10% 98%; /* Off-white */
 
-    --secondary: 0 0% 18%; /* Medium charcoal */
-    --secondary-foreground: 0 0% 95%;
+    --secondary: 240 10% 18%; /* Medium charcoal */
+    --secondary-foreground: 240 10% 95%;
 
-    --muted: 0 0% 22%; /* Lighter charcoal */
-    --muted-foreground: 0 0% 70%; /* Medium grey */
+    --muted: 240 10% 22%; /* Lighter charcoal */
+    --muted-foreground: 240 10% 90%; /* Brighter grey for dark mode */
 
-    --accent: 0 0% 85%; /* Light grey accent */
-    --accent-foreground: 0 0% 15%;
+    --accent: 240 80% 60%; /* AI Blue accent */
+    --accent-foreground: 240 10% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 0 0% 22%; /* Medium charcoal border */
-    --input: 0 0% 22%;
-    --ring: 0 0% 85%; /* Light grey ring */
+    --border: 240 10% 22%; /* Medium charcoal border */
+    --input: 240 10% 22%;
+    --ring: 240 80% 60%; /* AI Blue ring */
 
     --radius: 0.5rem;
   }
 
+  .dark-mode {
+    --background: 240 10% 8%; /* Dark charcoal */
+    --foreground: 240 10% 95%; /* Light grey/white */
+
+    --card: 240 10% 12%; /* Slightly lighter charcoal */
+    --card-foreground: 240 10% 95%;
+
+    --popover: 240 10% 12%;
+    --popover-foreground: 240 10% 95%;
+
+    --primary: 240 80% 60%; /* AI Blue */
+    --primary-foreground: 240 10% 98%; /* Off-white */
+
+    --secondary: 240 10% 18%; /* Medium charcoal */
+    --secondary-foreground: 240 10% 95%;
+
+    --muted: 240 10% 22%; /* Lighter charcoal */
+    --muted-foreground: 240 10% 90%; /* Brighter grey */
+
+    --accent: 240 80% 60%; /* AI Blue accent */
+    --accent-foreground: 240 10% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 10% 22%; /* Medium charcoal border */
+    --input: 240 10% 22%;
+    --ring: 240 80% 60%; /* AI Blue ring */
+  }
+
   .light-mode {
-    --background: 0 0% 98%; /* Very light grey */
-    --foreground: 0 0% 20%; /* Dark grey */
+    --background: 240 10% 98%; /* Very light grey */
+    --foreground: 240 10% 20%; /* Dark grey */
 
-    --card: 0 0% 96%; /* Light grey card */
-    --card-foreground: 0 0% 20%;
+    --card: 240 10% 96%; /* Light grey card */
+    --card-foreground: 240 10% 20%;
 
-    --popover: 0 0% 96%;
-    --popover-foreground: 0 0% 20%;
+    --popover: 240 10% 96%;
+    --popover-foreground: 240 10% 20%;
 
-    --primary: 0 0% 25%; /* Dark grey primary */
-    --primary-foreground: 0 0% 98%; /* Very light grey */
+    --primary: 240 80% 60%; /* AI Blue */
+    --primary-foreground: 240 10% 98%; /* Very light grey */
 
-    --secondary: 0 0% 92%; /* Light grey secondary */
-    --secondary-foreground: 0 0% 25%;
+    --secondary: 240 10% 92%; /* Light grey secondary */
+    --secondary-foreground: 240 10% 25%;
 
-    --muted: 0 0% 88%; /* Medium light grey */
-    --muted-foreground: 0 0% 45%; /* Medium grey */
+    --muted: 240 10% 88%; /* Medium light grey */
+    --muted-foreground: 240 10% 45%; /* Medium grey */
 
-    --accent: 0 0% 25%; /* Dark grey accent */
-    --accent-foreground: 0 0% 98%;
+    --accent: 240 80% 60%; /* AI Blue accent */
+    --accent-foreground: 240 10% 98%;
 
-    --border: 0 0% 85%; /* Light grey border */
-    --input: 0 0% 90%;
-    --ring: 0 0% 25%; /* Dark grey ring */
+    --border: 240 10% 85%; /* Light grey border */
+    --input: 240 10% 90%;
+    --ring: 240 80% 60%; /* AI Blue ring */
   }
 
   * {
@@ -79,11 +109,11 @@
   }
 
   .cosmic-gradient {
-    background: linear-gradient(135deg, rgba(64, 64, 64, 0.2) 0%, rgba(32, 32, 32, 0.4) 100%);
+    background: linear-gradient(135deg, hsl(240 10% 12% / 0.2) 0%, hsl(240 10% 8% / 0.4) 100%);
   }
 
   .light-mode .cosmic-gradient {
-    background: linear-gradient(135deg, rgba(230, 230, 230, 0.8) 0%, rgba(200, 200, 200, 0.6) 100%);
+    background: linear-gradient(135deg, hsl(240 10% 90% / 0.8) 0%, hsl(240 10% 80% / 0.6) 100%);
   }
 
   .cosmic-glow {
@@ -97,26 +127,36 @@
     left: -20px;
     right: -20px;
     bottom: -20px;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle at center, hsl(240 10% 95% / 0.1) 0%, transparent 70%);
     z-index: -1;
     border-radius: inherit;
   }
 
+  .dark-mode .cosmic-glow::before {
+    background: radial-gradient(circle at center, hsl(240 10% 95% / 0.1) 0%, transparent 70%);
+  }
+
   .light-mode .cosmic-glow::before {
-    background: radial-gradient(circle at center, rgba(64, 64, 64, 0.08) 0%, transparent 70%);
+    background: radial-gradient(circle at center, hsl(240 10% 20% / 0.08) 0%, transparent 70%);
   }
 
   .cosmic-grid {
-    background-image: 
-      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-image:
+      linear-gradient(hsl(240 10% 95% / 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(240 10% 95% / 0.05) 1px, transparent 1px);
     background-size: 30px 30px;
   }
 
+  .dark-mode .cosmic-grid {
+    background-image:
+      linear-gradient(hsl(240 10% 95% / 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(240 10% 95% / 0.05) 1px, transparent 1px);
+  }
+
   .light-mode .cosmic-grid {
-    background-image: 
-      linear-gradient(rgba(64, 64, 64, 0.08) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(64, 64, 64, 0.08) 1px, transparent 1px);
+    background-image:
+      linear-gradient(hsl(240 10% 20% / 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(240 10% 20% / 0.08) 1px, transparent 1px);
   }
 
   .text-balance {
@@ -124,11 +164,15 @@
   }
   
   .cosmic-glass {
-    @apply backdrop-blur-sm bg-card border border-white/10 shadow-[0_0_15px_rgba(255,255,255,0.1)];
+    @apply backdrop-blur-sm bg-card border border-foreground/10 shadow-[0_0_15px_hsl(240_10%_95%_/_0.1)];
+  }
+
+  .dark-mode .cosmic-glass {
+    @apply backdrop-blur-sm bg-card border border-foreground/10 shadow-[0_0_15px_hsl(240_10%_95%_/_0.1)];
   }
 
   .light-mode .cosmic-glass {
-    @apply backdrop-blur-sm bg-card border border-black/10 shadow-[0_0_15px_rgba(0,0,0,0.05)];
+    @apply backdrop-blur-sm bg-card border border-foreground/10 shadow-[0_0_15px_hsl(240_10%_20%_/_0.05)];
   }
   
   .cosmic-card {
@@ -152,20 +196,28 @@
   }
   
   .icon-glow {
-    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3));
+    filter: drop-shadow(0 0 6px hsl(240 10% 95% / 0.3));
     transition: filter 0.3s ease;
   }
 
+  .dark-mode .icon-glow {
+    filter: drop-shadow(0 0 6px hsl(240 10% 95% / 0.3));
+  }
+
   .light-mode .icon-glow {
-    filter: drop-shadow(0 0 6px rgba(64, 64, 64, 0.2));
+    filter: drop-shadow(0 0 6px hsl(240 10% 20% / 0.2));
   }
   
   .collapsible-trigger:hover .icon-glow {
-    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0 0 10px hsl(240 10% 95% / 0.5));
+  }
+
+  .dark-mode .collapsible-trigger:hover .icon-glow {
+    filter: drop-shadow(0 0 10px hsl(240 10% 95% / 0.5));
   }
 
   .light-mode .collapsible-trigger:hover .icon-glow {
-    filter: drop-shadow(0 0 10px rgba(64, 64, 64, 0.3));
+    filter: drop-shadow(0 0 10px hsl(240 10% 20% / 0.3));
   }
 
   .task-card {

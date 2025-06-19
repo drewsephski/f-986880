@@ -34,10 +34,10 @@ const DashboardPreview = () => {
           }`}
         >
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter">
-            Intuitive task management interface
+            Intuitive AI application builder
           </h2>
           <p className="text-cosmic-muted text-lg">
-            A powerful dashboard that adapts to how your team works
+            A powerful platform that adapts to your AI development needs
           </p>
         </div>
         
@@ -54,7 +54,7 @@ const DashboardPreview = () => {
                 <div className="h-8 w-8 rounded-md bg-cosmic-light/20 flex items-center justify-center">
                   <div className="h-3 w-3 rounded-sm bg-cosmic-accent"></div>
                 </div>
-                <span className="text-white font-medium">Marketing Campaign Q2</span>
+                <span className="text-white font-medium">AI Application Development</span>
               </div>
               
               <div className="flex items-center gap-3">
@@ -66,7 +66,7 @@ const DashboardPreview = () => {
                 </div>
                 
                 <div className="h-8 px-3 rounded-md bg-cosmic-light/10 flex items-center justify-center text-white text-sm">
-                  Share
+                  Share Project
                 </div>
               </div>
             </div>
@@ -80,19 +80,19 @@ const DashboardPreview = () => {
                   <div className="space-y-1">
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md bg-cosmic-light/10 text-white">
                       <div className="h-3 w-3 rounded-sm bg-cosmic-accent"></div>
-                      <span>Board</span>
+                      <span>Builder</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-cosmic-muted hover:bg-cosmic-light/5">
                       <div className="h-3 w-3 rounded-sm bg-cosmic-muted/30"></div>
-                      <span>Timeline</span>
+                      <span>Workflows</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-cosmic-muted hover:bg-cosmic-light/5">
                       <div className="h-3 w-3 rounded-sm bg-cosmic-muted/30"></div>
-                      <span>Calendar</span>
+                      <span>Deployments</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-cosmic-muted hover:bg-cosmic-light/5">
                       <div className="h-3 w-3 rounded-sm bg-cosmic-muted/30"></div>
-                      <span>Files</span>
+                      <span>Models</span>
                     </div>
                   </div>
                 </div>
@@ -102,15 +102,15 @@ const DashboardPreview = () => {
                   <div className="space-y-1">
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-cosmic-muted hover:bg-cosmic-light/5">
                       <div className="h-3 w-3 rounded-full bg-cosmic-accent/80"></div>
-                      <span>Marketing</span>
+                      <span>AI Engineers</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-cosmic-muted hover:bg-cosmic-light/5">
                       <div className="h-3 w-3 rounded-full bg-purple-400/80"></div>
-                      <span>Design</span>
+                      <span>Data Scientists</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-cosmic-muted hover:bg-cosmic-light/5">
                       <div className="h-3 w-3 rounded-full bg-blue-400/80"></div>
-                      <span>Development</span>
+                      <span>Business Analysts</span>
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ const DashboardPreview = () => {
                       </svg>
                     </div>
                     <div className="h-8 px-3 rounded-md bg-cosmic-accent text-cosmic-darker flex items-center justify-center text-sm font-medium">
-                      New Task
+                      New AI Task
                     </div>
                   </div>
                 </div>

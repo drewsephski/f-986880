@@ -25,12 +25,25 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				ai: {
+					50: 'hsl(240 10% 98%)',
+					100: 'hsl(240 10% 95%)',
+					200: 'hsl(240 10% 85%)',
+					300: 'hsl(240 10% 70%)',
+					400: 'hsl(240 10% 50%)',
+					500: 'hsl(240 80% 60%)', /* Primary AI blue */
+					600: 'hsl(240 80% 50%)',
+					700: 'hsl(240 80% 40%)',
+					800: 'hsl(240 80% 30%)',
+					900: 'hsl(240 80% 20%)',
+					950: 'hsl(240 80% 10%)',
+				},
 				cosmic: {
-					dark: '#404040', /* Medium grey for light mode */
-					darker: '#303030', /* Darker grey for light mode */
-					light: '#f0f0f0', /* Light grey for light mode */
-					accent: '#606060', /* Medium-dark grey accent */
-					muted: '#909090', /* Medium grey */
+					dark: 'hsl(240 10% 12%)', /* Dark charcoal for cosmic elements */
+					darker: 'hsl(240 10% 8%)', /* Even darker charcoal */
+					light: 'hsl(240 10% 95%)', /* Light grey for cosmic elements */
+					accent: 'hsl(240 80% 60%)', /* AI blue accent for cosmic */
+					muted: 'hsl(240 10% 40%)', /* Medium grey for muted cosmic elements */
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',

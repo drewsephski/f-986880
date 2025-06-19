@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="md:col-span-2 space-y-6">
             <Logo />
             <p className="text-muted-foreground max-w-xs">
-              Modern task management for teams that value clarity, focus, and results.
+              End-to-end AI automation platform to build, deploy, and manage AI applications and workflows quickly.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="h-10 w-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors">
@@ -42,9 +42,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-medium text-lg text-foreground">Product</h4>
             <ul className="space-y-3">
-              <li><a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a></li>
+              <li><a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Solutions</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Integrations</a></li>
-              <li><a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a></li>
+              <li><a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Plans</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Updates</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Roadmap</a></li>
             </ul>
@@ -74,11 +74,11 @@ const Footer = () => {
         </div>
         
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center text-muted-foreground text-sm">
-          <div>© 2025 Cosmos Tasks. All rights reserved.</div>
+          <div>© 2025 HyperShift AI. All rights reserved.</div>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms</a>
-            <a href="#" className="hover:text-foreground transition-colors">Cookies</a>
+            <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-foreground transition-colors">Cookie Policy</a>
           </div>
         </div>
       </div>

@@ -23,30 +23,30 @@ const HeroSection = () => {
         <div className="flex justify-center">
           <span className="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium rounded-full bg-muted text-primary">
             <span className="flex h-2 w-2 rounded-full bg-primary"></span>
-            Launching new payment features
+            New AI capabilities launching soon
             <Loader className="h-3 w-3 animate-spin text-primary" />
           </span>
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground">
-          Financial operations for <span className="text-primary">growth</span> businesses
+          End-to-end AI automation for <span className="text-primary">every</span> business
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-          Streamline your financial workflows with our comprehensive fintech platform. Built for modern businesses who value efficiency, compliance, and scalable growth.
+          HyperShift AI is an end-to-end AI automation platform that enables users to build, deploy, and manage AI applications and workflows quickly—without needing to write code.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">
           <Button className="bg-primary/80 text-primary-foreground hover:bg-primary/100 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px] hover:text-blue-300">
-            Start for free
+            Start Building AI
           </Button>
           <Button variant="outline" className="border-border text-foreground hover:bg-accent hover:text-accent-foreground text-base h-12 px-8 transition-all duration-300 min-h-[48px]">
-            Book a demo
+            Request a Demo
           </Button>
         </div>
         
         <div className="pt-6 text-sm text-muted-foreground">
-          No credit card required • Free 14-day trial
+          No-code interface • Robust code SDK
         </div>
       </div>
       
@@ -60,7 +60,7 @@ const HeroSection = () => {
                 <div className="h-8 w-8 rounded-md bg-muted flex items-center justify-center">
                   <div className="h-3 w-3 rounded-sm bg-foreground"></div>
                 </div>
-                <span className="text-foreground font-medium">Payment Processing Pipeline</span>
+                <span className="text-foreground font-medium">AI Workflow Automation</span>
               </div>
               
               <div className="flex items-center gap-3">
@@ -72,7 +72,7 @@ const HeroSection = () => {
                 </div>
                 
                 <div className="h-8 px-3 rounded-md bg-muted flex items-center justify-center text-foreground text-sm">
-                  Share
+                  Collaborate
                 </div>
               </div>
             </div>
@@ -86,37 +86,37 @@ const HeroSection = () => {
                   <div className="space-y-1">
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md bg-muted text-foreground">
                       <div className="h-3 w-3 rounded-sm bg-foreground"></div>
-                      <span>Payments</span>
+                      <span>AI Apps</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-muted-foreground hover:bg-muted/50">
                       <div className="h-3 w-3 rounded-sm bg-muted-foreground/30"></div>
-                      <span>Analytics</span>
+                      <span>Workflows</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-muted-foreground hover:bg-muted/50">
                       <div className="h-3 w-3 rounded-sm bg-muted-foreground/30"></div>
-                      <span>Compliance</span>
+                      <span>Data Sources</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-muted-foreground hover:bg-muted/50">
                       <div className="h-3 w-3 rounded-sm bg-muted-foreground/30"></div>
-                      <span>Reports</span>
+                      <span>Models</span>
                     </div>
                   </div>
                 </div>
                 
                 <div className="space-y-2 pt-4">
-                  <div className="text-xs text-muted-foreground uppercase">Departments</div>
+                  <div className="text-xs text-muted-foreground uppercase">User Types</div>
                   <div className="space-y-1">
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-muted-foreground hover:bg-muted/50">
                       <div className="h-3 w-3 rounded-full bg-muted-foreground/60"></div>
-                      <span>Treasury</span>
+                      <span>No-code Users</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-muted-foreground hover:bg-muted/50">
                       <div className="h-3 w-3 rounded-full bg-muted-foreground/50"></div>
-                      <span>Risk</span>
+                      <span>Developers</span>
                     </div>
                     <div className="flex items-center gap-3 px-3 py-2 rounded-md text-muted-foreground hover:bg-muted/50">
                       <div className="h-3 w-3 rounded-full bg-muted-foreground/40"></div>
-                      <span>Operations</span>
+                      <span>Enterprise</span>
                     </div>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ const HeroSection = () => {
                 {/* Board Header */}
                 <div className="flex items-center justify-between mb-6 min-w-0">
                   <div className="flex items-center gap-2 flex-shrink-0">
-                    <h3 className="font-medium text-foreground">Transactions</h3>
+                    <h3 className="font-medium text-foreground">Automations</h3>
                     <span className="text-xs bg-muted px-2 py-1 rounded-full text-muted-foreground">23</span>
                   </div>
                   
@@ -145,7 +145,7 @@ const HeroSection = () => {
                       </svg>
                     </div>
                     <div className="h-8 px-3 rounded-md bg-foreground text-background flex items-center justify-center text-sm font-medium whitespace-nowrap hover:bg-amber-400 transition duration-300 active:bg-green-400">
-                      New Transaction
+                      New Automation
                     </div>
                   </div>
                 </div>

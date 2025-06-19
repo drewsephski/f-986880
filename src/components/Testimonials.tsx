@@ -4,21 +4,21 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Our payment processing efficiency increased by 40% and transaction failures dropped to near zero. The automation features are game-changing.",
-      author: "Sarah Johnson",
-      position: "CFO at TechCorp",
+      quote: "HyperShift AI transformed our workflow. We built and deployed an AI application in days, not months, without writing a single line of code!",
+      author: "Alex P.",
+      position: "Head of Marketing, Global Innovations",
       avatar: "bg-cosmic-light/30"
     },
     {
-      quote: "The real-time analytics and fraud detection capabilities have saved us millions. We can spot issues before they become problems.",
-      author: "Michael Chen",
-      position: "Head of Risk at FinanceFlow",
+      quote: "The flexibility of no-code and code SDK is incredible. Our technical and non-technical teams can now collaborate seamlessly on AI projects.",
+      author: "Dr. Emily R.",
+      position: "Chief Data Scientist, Quantum Solutions",
       avatar: "bg-cosmic-light/20"
     },
     {
-      quote: "Compliance used to be a nightmare. Now our regulatory reporting is automated and we're always audit-ready.",
-      author: "Leila Rodriguez",
-      position: "Operations Director at GlobalPay",
+      quote: "Automating our back-office processes with HyperShift AI has saved us countless hours and significantly reduced operational costs. Highly recommended!",
+      author: "Carlos M.",
+      position: "Operations Director, Apex Corp",
       avatar: "bg-cosmic-light/40"
     }
   ];
@@ -31,10 +31,10 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto space-y-16 relative z-10">
         <div className="text-center space-y-4 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">
-            Trusted by finance teams worldwide
+            What our users are saying
           </h2>
           <p className="text-muted-foreground text-lg">
-            See how our platform transforms financial operations for businesses
+            Hear from businesses transforming their operations with HyperShift AI
           </p>
         </div>
         
